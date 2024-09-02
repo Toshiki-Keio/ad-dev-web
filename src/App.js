@@ -10,9 +10,9 @@ function App() {
   useEffect(() => {
     const ros = new ROSLIB.Ros({
       // url: 'ws://192.168.1.238:9090',
-      url: 'ws://192.168.195.135:9090',
+      url: 'ws://192.168.11.52:9090',
       options: {
-        ros_domain_id: '0',
+        ros_domain_id: '100',
       },
     });
 
